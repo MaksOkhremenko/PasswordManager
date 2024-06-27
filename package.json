@@ -1,0 +1,35 @@
+{
+  "name": "password-manager",
+  "version": "1.0.0",
+  "description": "A simple web-app for storing passwords",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js PROD",
+    "dev": "nodemon app.js DEV"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksOkhremenko/PasswordManager.git"
+  },
+  "author": "MaksOkhremenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaksOkhremenko/PasswordManager.git"
+  },
+  "homepage": "https://github.com/MaksOkhremenko/PasswordManager.git",
+  "dependencies": {
+    "@fastify/cookie": "^9.1.0",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/helmet": "^11.1.1",
+    "@fastify/session": "^10.5.0",
+    "@fastify/static": "^6.12.0",
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^9.0.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "fastify-session-better-sqlite3-store": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

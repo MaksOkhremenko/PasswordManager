@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/form-style.css">
+    <title>Реєстрація</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Реєстрація</h1>
+        <form action="register" method="post">
+            <div class="lgn input-field">
+                <input class="register-cred" type="text" placeholder="Ім'я користувача" name="uid" required>
+                <input class="register-cred" type="password" placeholder="Пароль" name="psw1" required>
+                <input class="register-cred" type="password" placeholder="Підтвердіть пароль" name="psw2" required>
+            </div>
+            <div class="lgn input-buttons">
+                <input class="btn register" type="submit" value="Підтвердити">
+            </div>
+        </form>
+        <a class="links" href="/login">Повернутись до входу</a>
+    </div>
+</body>
+</html>
